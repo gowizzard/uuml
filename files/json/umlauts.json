@@ -1,0 +1,30 @@
+[
+    {
+        "key": "ß",
+        "value": "ss"
+    },
+    {
+        "key": "Ä",
+        "value": "Ae"
+    },
+    {
+        "key": "ä",
+        "value": "ae"
+    },
+    {
+        "key": "Ö",
+        "value": "Oe"
+    },
+    {
+        "key": "ö",
+        "value": "oe"
+    },
+    {
+        "key": "Ü",
+        "value": "Ue"
+    },
+    {
+        "key": "ü",
+        "value": "ue"
+    }
+]
