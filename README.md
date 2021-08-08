@@ -7,7 +7,7 @@ This small library should help you to remove umlauts from your strings. It runs 
 Just run the command in the command line and you will download the package.
 
 ```console
-go get github.com/jojojojonas/uuml
+go get github.com/gowizzard/uuml
 ```
 
 ## How to use?
