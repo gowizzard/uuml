@@ -1,3 +1,3 @@
-module github.com/jojojojonas/uuml
+module github.com/gowizzard/uuml
 
 go 1.15
