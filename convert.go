@@ -1,13 +1,11 @@
-//**********************************************************
-//
-// Copyright (C) 2018 - 2021 J&J Ideenschmiede UG (haftungsbeschränkt) <info@jj-ideenschmiede.de>
+//********************************************************************************************************************//
 //
 // This file is part of uuml.
 // All code may be used. Feel free and maybe code something better.
 //
-// Author: Jonas Kwiedor
+// Author: Jonas Kwiedor (aka gowizzard)
 //
-//**********************************************************
+//********************************************************************************************************************//
 
 package uuml
 
@@ -15,7 +13,7 @@ import (
 	"strings"
 )
 
-// To convert the umlauts in strings
+// Convert is to convert the umlauts in strings
 func Convert(text string) string {
 
 	// Create list for umlauts
