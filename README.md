@@ -1,5 +1,7 @@
 # uuml
 
+[![Go](https://github.com/gowizzard/uuml/actions/workflows/go.yml/badge.svg)](https://github.com/gowizzard/uuml/actions/workflows/go.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/gowizzard/uuml)](https://goreportcard.com/report/github.com/gowizzard/uuml) [![Go Reference](https://pkg.go.dev/badge/github.com/gowizzard/uuml.svg)](https://pkg.go.dev/github.com/gowizzard/uuml) 
+
 This small library should help you to remove umlauts from your strings. It runs through a list of german umlauts and replaces them with the written out spelling.
 
 ## Install
