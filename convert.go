@@ -13,30 +13,25 @@ import (
 	"strings"
 )
 
+// list defines all possible german umlauts
+var list = map[string]string{
+	"ß": "ss",
+	"Ä": "Ae",
+	"ä": "ae",
+	"Ö": "Oe",
+	"ö": "oe",
+	"Ü": "Ue",
+	"ü": "ue",
+}
+
 // Convert is to convert the umlauts in strings
+// The function check each umlaut and replace it with the correct written out spelling
 func Convert(text string) string {
 
-	// Create list for umlauts
-	list := make(map[string]string)
-
-	// Set umlauts
-	list["ß"] = "ss"
-	list["Ä"] = "Ae"
-	list["ä"] = "ae"
-	list["Ö"] = "Oe"
-	list["ö"] = "oe"
-	list["Ü"] = "Ue"
-	list["ü"] = "ue"
-
-	// Check each umlauts in string
 	for index, value := range list {
-
-		// Replace umlauts
 		text = strings.Replace(text, index, value, -1)
-
 	}
 
-	// Return text without umlauts
 	return text
 
 }
