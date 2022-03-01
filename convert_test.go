@@ -18,11 +18,6 @@ import (
 
 // To test the convert function
 func TestConvert(t *testing.T) {
-
-	// Example text
 	text := "Hallöchen, mein Name ist Fränklin Meißter!"
-
-	// Convert text & print converted text
 	fmt.Println(Convert(text))
-
 }
